@@ -27,6 +27,7 @@ namespace Bigschool.Controllers
                 Categories = _dbContext.Categories.ToList()
             };
             return View(viewModel);
+
         }
         [Authorize]
         [HttpPost]
